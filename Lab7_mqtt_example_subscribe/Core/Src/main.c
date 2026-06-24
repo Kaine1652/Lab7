@@ -192,8 +192,8 @@ void taskMQTT(void *pvParameters){
 
   struct mqtt_connect_client_info_t mqtt_connect_info = {
     .client_id = "M11317045_B",
-    .client_user = "raymiao",
-    .client_pass = "548787",
+    .client_user = "CSIE3041",
+    .client_pass = "000000",
     .keep_alive = 20,
     .will_topic = "Lab7/Last_will",
     .will_msg = "Goodbye client_B!",
